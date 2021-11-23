@@ -53,11 +53,11 @@ function Home() {
                         </Link>
                         
                         <ul className="header__list">
-                            <li>Apartments</li>
+                            <li>Bookings</li>
                         </ul>
                     </div>
                     <div className="logo">
-                        <h4>BelAirs</h4>
+                        <h4>Blr airs</h4>
                     </div>
                     <div className="header__links">
                         <ul className="header__list">
@@ -92,26 +92,26 @@ function Home() {
                     <div className="nav-details">
                             <div className="nav-address">
                                 <h5>Find Us</h5>
-                                <p>100A George St, Croydon CRO 1Gp </p>
+                                <p> sutta gully</p>
                                 <h5>Call Us</h5>
                                 <p>
                                     {/* <AiIcons.AiOutlineMobile className="phone" /> +44(0)20 3548 6589  */}
-                                    <ImIcons.ImMobile className="phone" /> +44(0)20 3548 6589 
+                                    <ImIcons.ImMobile className="phone" /> +91 9951198276
                                 </p>
                             </div>
                             <div className="nav-socials">
-                                <div className="nav-socials-icons">
+                                <a className="nav-socials-icons" href="https://www.instagram.com/ritvik._/">
                                    <FaIcons.FaInstagram className="socials" />
-                                </div>
-                                <div className="nav-socials-icons">
+                                </a>
+                                <a className="nav-socials-icons" href="https://www.facebook.com/ParamahamsaNithyananda">
                                     <FaIcons.FaFacebookF className="socials" />
-                                </div>
+                                </a>
                                 <div className="nav-socials-icons">
                                     <FaIcons.FaTwitter className="socials" />
                                 </div>
-                                <div className="nav-socials-icons">
+                                <a className="nav-socials-icons" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
                                     <FaIcons.FaYoutube className="socials" />
-                                </div>
+                                </a>
                             </div>
                         </div>
                 </nav>
@@ -122,21 +122,21 @@ function Home() {
                    <div className="home__SM">
                        <FaIcons.FaFacebookF className="home__SMicon" />
                    </div>
-                   <div className="home__SM">
-                       <FaIcons.FaInstagram className="home__SMicon" />
-                   </div>
+                   <a className="home__SM" href="https://www.instagram.com/ritvik._/">
+                       <FaIcons.FaInstagram className="home__SMicon"  />
+                   </a>
                    <div className="home__SM">
                        <FaIcons.FaTwitter className="home__SMicon" />
                    </div>
-                   <div className="home__SM">
+                   <a className="home__SM" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
                        <FaIcons.FaYoutube className="home__SMicon" />
-                   </div>
+                   </a>
                </div>
                <div className="home__content">
-                   <h2>Premium Rental Apartments </h2>
+                   <h2>Premium airplanes </h2>
                    <h1>Feel at home wherever you are</h1>
                    <div className="home__button">
-                        <button>Search apartments </button>
+                        <button>Search airplanes </button>
                    </div>
                   
                </div>
