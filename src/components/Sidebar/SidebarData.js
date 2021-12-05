@@ -9,29 +9,17 @@ export const SidebarData = [
         path: '/',
         cName: 'nav-text'
     },
-    {
-        title: 'Apartments',
-        path: '/apartments',
-        cName: 'nav-text'
-    },
+  
     {
         title: 'Why BelAirs',
         path: '/belairs',
         cName: 'nav-text'
     },
     {
-        title: 'Our Location',
+        title: 'your bookings',
         path: '/contact',
         cName: 'nav-text'
     },
-    {
-        title: 'Team',
-        path: '/team',
-        cName: 'nav-text'
-    },
-    {
-        title: 'Join Us',
-        path: '/join-us',
-        cName: 'nav-text'
-    },
+   
+   
 ]
