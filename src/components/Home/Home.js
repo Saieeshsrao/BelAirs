@@ -53,7 +53,7 @@ function Home() {
                         </Link>
                         
                         <ul className="header__list">
-                            <li>Bookings</li>
+                          <a href="booking.html"style={{color: "white"}}>  <li>Bookings</li></a>
                         </ul>
                     </div>
                     <div className="logo">
