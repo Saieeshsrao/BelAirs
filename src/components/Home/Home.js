@@ -136,7 +136,7 @@ function Home() {
                    <h2>Premium airplanes </h2>
                    <h1>Feel at home wherever you are</h1>
                    <div className="home__button">
-                        <button>Search airplanes </button>
+                        <button class="button-os">Search airplanes </button>
                    </div>
                   
                </div>
