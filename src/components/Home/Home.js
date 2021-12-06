@@ -12,6 +12,7 @@ import BelAirsVid from '../video/BelAirs.mp4';
 
 
 import './Home.css';
+import NewComponent from '../../login.js';
 
 
 function Home() {
@@ -19,6 +20,10 @@ function Home() {
     const [sidebar, setSidebar] = useState(false);
 
     const showSidebar = () => setSidebar(!sidebar)
+
+   const click=() => {
+       
+   }
 
 
     return (
@@ -136,7 +141,7 @@ function Home() {
                    <h2>Premium airplanes </h2>
                    <h1>Feel at home wherever you are</h1>
                    <div className="home__button">
-                        <button class="button-os">Search airplanes </button>
+                        <Link target="_blank" to="/login"><button class="button-os">Search airplanes </button></Link>
                    </div>
                   
                </div>
