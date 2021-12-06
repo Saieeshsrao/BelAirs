@@ -20,7 +20,7 @@ class NewComponent extends React.Component{
             <input type="name" placeholder="Enter Name" name="Name" id="Name" required />
             <hr />
             <p>By confirming your booking you agree to our <a href="#">Terms &amp; Privacy</a>.</p>
-            <Link to="/book"<button type="submit" className="confirm">Confirm booking</button>
+           <button type="submit" className="confirm">Confirm booking</button>
           </div>
         </form>
       </div>
