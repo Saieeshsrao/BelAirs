@@ -30,7 +30,7 @@ function Home() {
                 loop
                 muted
                 style={{
-                    position: "absolute",
+                    position: "abso\te",
                     width: "100%",
                     left: "50%",
                     top: "50%",
@@ -61,7 +61,7 @@ function Home() {
                     </div>
                     <div className="header__links">
                         <ul className="header__list">
-                            <li>About</li>
+                           
                             <li>Contact</li>
                             <li>Help</li>
                         </ul>
