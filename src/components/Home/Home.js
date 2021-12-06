@@ -30,7 +30,7 @@ function Home() {
                 loop
                 muted
                 style={{
-                    position: "abso\te",
+                    position: "absolute",
                     width: "100%",
                     left: "50%",
                     top: "50%",
