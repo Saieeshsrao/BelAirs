@@ -411,7 +411,7 @@ h1 {
 
     }
     .button-os{
-        
+        font-size: 20px;
          width: 200px;
          height: 65px;
          top: 0;
@@ -424,16 +424,18 @@ h1 {
          transition: background-color 2.2s;
          transition-duration: 3s;
          transition: 1.5s;
+         border-radius:10px;
        }
        
        .button-os:hover{
-        
+        font-size: 23px;
          top: 30px;
          background-color: #94a098;
+         border-radius:10px;
        }
        
        .button-os a{
-         font-size: 20px;
+         font-size: 30px;
          display: block;
          text-decoration: none;
          color:#0e172c;

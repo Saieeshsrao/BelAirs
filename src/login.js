@@ -1,5 +1,6 @@
 import React from 'react';
 import './login.css';
+import { Link } from 'react-router-dom';
  
 class NewComponent extends React.Component{ 
   render(){
@@ -19,8 +20,8 @@ class NewComponent extends React.Component{
             <label htmlFor="Name"><b>Full Name</b></label>
             <input type="name" placeholder="Enter Name" name="Name" id="Name" required />
             <hr />
-            <p>By confirming your booking you agree to our <a href="#">Terms &amp; Privacy</a>.</p>
-           <button type="submit" className="confirm">Confirm booking</button>
+            <p>By confirming your booking you agree to our <a href="https://policies.google.com/privacy?hl=en-US">Terms &amp; Privacy</a>.</p>
+           <Link to="/booking"> <button type="submit" className="confirm">Proceed to booking</button></Link>
           </div>
         </form>
       </div>
